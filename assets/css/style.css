@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #8ca5c6;
+}
+
+.header h1{
+   font-size: 40px;
+}
+.card-country{
+    overflow: hidden;
+    height: 350px;
+    padding: 15px 20px 0;
+}
+.card img{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    
+}
+.card-country figcaption{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: 0 15px;
+    transform: translate(0,40%);
+    height: 200px;
+}
+figcaption h2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+figcaption h3{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
