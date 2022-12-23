@@ -14,7 +14,7 @@ body{
 }
 .card-country{
     overflow: hidden;
-    height: 350px;
+    height: 410px;
     padding: 15px 20px 0;
 }
 .card img{
@@ -32,8 +32,8 @@ body{
     color: #fff;
     width: 100%;
     padding: 0 15px;
-    transform: translate(0,40%);
-    height: 200px;
+    transform: translate(0,-100%);
+    height: 100px;
 }
 figcaption h2{
     width: 100%;
